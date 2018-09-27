@@ -1,4 +1,4 @@
-FROM alpine-base
+FROM registry.cn-shenzhen.aliyuncs.com/sjroom/alpine-base
 
 # Install nginx
 RUN echo "http://dl-4.alpinelinux.org/alpine/v3.7/main" >> /etc/apk/repositories && \
